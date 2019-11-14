@@ -5,4 +5,5 @@ node_modules
 npm-debug.log
 
 # Environment Variables should NEVER be published
-.env
+# commented out for learning purposes (so students get the .env file when they clone the starter code)
+# .env 

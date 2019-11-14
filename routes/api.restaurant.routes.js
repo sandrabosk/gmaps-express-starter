@@ -4,7 +4,7 @@ const Restaurant = require('../models/Restaurant');
 
 // to see raw data in your browser, just go on: http://localhost:3000/api
 router.get('/', (req, res, next) => {
-	Restaurant
+  Restaurant
 		.find()
 		.then(restaurants => res.status(200).json(restaurants))
 		.catch(err => next(err))
