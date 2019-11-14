@@ -1,0 +1,24 @@
+<h3>List of all restaurants</h3>
+
+<div class="row">
+  {{#each restaurants}}
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="/restaurants/{{this._id}}">
+              {{ this.name}}
+            </a>
+          </h5>
+          <a href="/restaurants/{{this._id}}/delete" class="btn btn-primary">
+            Delete
+          </a>
+        </div>
+      </div>
+    </div>
+  {{/each }}
+</div>
+
+{{!-- add map here --}}
+
+{{!-- add your JS scripts here --}}

@@ -1,0 +1,41 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; 
+}
+
+.form-create {
+  border-radius: 5px;
+  background-color: #faf6f6;
+  padding: 20px;
+  margin: 50px;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background-color: rgb(13, 214, 73);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #00B7FF; 
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
