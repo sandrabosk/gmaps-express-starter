@@ -16,6 +16,10 @@
         </div>
       </div>
     </div>
+    {{else}}
+    <div class="alert alert-warning" role="alert">
+        There's no restaurants in the DB, go ahead and <a href="/restaurants/new">create a new restaurant</a>.
+    </div>
   {{/each }}
 </div>
 
