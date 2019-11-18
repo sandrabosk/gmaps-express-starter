@@ -8,19 +8,19 @@
   />
   <label>Description:</label>
   <textarea name="description"> {{restaurant.description}} </textarea>
-  <label>Address</label>
+
+  <label for="latitude">Latitude: </label>
   <input 
     type="text" 
     name="latitude" 
     id="latitude" 
-    placeholder="latitude" 
     value="{{restaurant.location.coordinates.[1]}}"
   />
+  <label for="longitude">Longitude: </label>
   <input 
     type="text" 
     name="longitude" 
     id="longitude" 
-    placeholder="longitude" 
     value="{{restaurant.location.coordinates.[0]}}"
   />
 

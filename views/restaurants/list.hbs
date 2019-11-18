@@ -22,7 +22,19 @@
     </div>
   {{/each }}
 </div>
+<div>
+  <label for="address">Enter a valid address or just the city and country:</label>
+  <input id="address" type="text" size="50">
+  <input id="submit" type="submit" value="submit">
+</div>
 
 {{!-- add map here --}}
+<div id="map"></div>
 
-{{!-- add your JS scripts here --}}
+{{!-- Add Axios CDN  --}}
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+{{!-- add the GoogleAPI script here --}}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDG88rK2sVwRDbZIJautuIZpNt32kAQpSU"></script>
+{{!-- add the restaurant.script.js here --}}
+<script type="text/javascript" src="/javascripts/restaurant-script.js"></script>
